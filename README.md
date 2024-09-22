@@ -12,7 +12,7 @@
   
 
 ## Embedded (In-Process) Data Store
-- Nodejs in-built SQLite modules: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
+- Nodejs inbuilt SQLite modules: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
 - Node-Sqlite - https://github.com/kriasoft/node-sqlite/blob/master/README.md
 - Node-json-db  - https://github.com/Belphemur/node-json-db/blob/master/README.md
 - Simple-json-db - https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
@@ -58,13 +58,13 @@
 - Cheeriojs - https://github.com/cheeriojs/cheerio/blob/master/Readme.md
 - Puppeteer - https://github.com/puppeteer/puppeteer/blob/main/README.md
 - Playright - https://github.com/microsoft/playwright/blob/main/README.md
-- Nodejs in-built fetch() client - https://nodejs.org/docs/latest/api/globals.html#fetch
+- Nodejs inbuilt fetch() client - https://nodejs.org/docs/latest/api/globals.html#fetch
 - Axios - https://github.com/axios/axios/blob/v1.x/README.md
 
 
 ## REST API Integration
-- Nodejs in-built http - https://nodejs.org/docs/latest/api/http.html
-- Nodejs in-built https - https://nodejs.org/docs/latest/api/https.html
+- Nodejs inbuilt http - https://nodejs.org/docs/latest/api/http.html
+- Nodejs inbuilt https - https://nodejs.org/docs/latest/api/https.html
 - Expressjs - https://github.com/expressjs/express/blob/master/Readme.md
 - Fastify -  https://github.com/fastify/fastify/blob/main/README.md
 - Hapi - https://github.com/hapijs/hapi/blob/master/README.md
