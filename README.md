@@ -12,7 +12,7 @@
   
 
 ## Embedded (In-Process) Data Store
-- Nodejs inbuilt SQLite modules: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
+- Nodejs inbuilt SQLite module: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
 - Node-Sqlite - https://github.com/kriasoft/node-sqlite/blob/master/README.md
 - Node-json-db  - https://github.com/Belphemur/node-json-db/blob/master/README.md
 - Simple-json-db - https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
