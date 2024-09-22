@@ -13,26 +13,26 @@
 
 ## Embedded (In-Process) Data Store
 - Nodejs in-built SQLite modules: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
-- Node-Sqlite - https://github.com/kriasoft/node-sqlite
-- Node-json-db  - https://github.com/Belphemur/node-json-db
-- Simple-json-db - https://github.com/nmaggioni/Simple-JSONdb#readme
-- LevelDB - https://github.com/my8bird/node-leveldb
+- Node-Sqlite - https://github.com/kriasoft/node-sqlite/blob/master/README.md
+- Node-json-db  - https://github.com/Belphemur/node-json-db/blob/master/README.md
+- Simple-json-db - https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
+- LevelDB - https://github.com/my8bird/node-leveldb/blob/master/README.md
 
 
 ## Machine Learning
-- Tensorflow.js - https://github.com/tensorflow/tfjs and https://www.tensorflow.org/js
-- Node-opencv - https://github.com/peterbraden/node-opencv
-- Brain.js - https://github.com/brainjs/brain.js
-- NLP.js - https://github.com/axa-group/nlp.js 
+- Tensorflow.js - https://github.com/tensorflow/tfjs/blob/master/README.md and https://www.tensorflow.org/js
+- Node-opencv - https://github.com/peterbraden/node-opencv/blob/master/README.md
+- Brain.js - https://github.com/brainjs/brain.js/blob/master/README.md
+- NLP.js - https://github.com/axa-group/nlp.js/blob/master/README.md
 - Synaptic - https://caza.la/synaptic/#/
-- Stdlib-js/ml - https://github.com/stdlib-js/ml
-- Stdlib-js/npl - https://github.com/stdlib-js/nlp
+- Stdlib-js/ml - https://github.com/stdlib-js/ml/blob/main/README.md
+- Stdlib-js/npl - https://github.com/stdlib-js/nlp/blob/main/README.md
 
 
 ## GenAI
-- OpenAI - https://github.com/openai/openai-node
+- OpenAI - https://github.com/openai/openai-node/blob/master/README.md
 - WorkerAI - https://developers.cloudflare.com/workers-ai/configuration/bindings/
-- Gemini - https://github.com/google-gemini/generative-ai-js
+- Gemini - https://github.com/google-gemini/generative-ai-js/blob/main/README.md
 - Bedrock - https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/
 
 
@@ -45,8 +45,8 @@
 
 ## Messaging and Tasks Scheduler
 - Zeromq.js - https://zeromq.github.io/zeromq.js/index.html
-- Node-cron - https://github.com/node-cron/node-cron
-- Cron - https://github.com/kelektiv/node-cron
+- Node-cron - https://github.com/node-cron/node-cron/blob/master/README.md
+- Cron - https://github.com/kelektiv/node-cron/blob/main/README.md
 
 
 ## Web Scrapping
@@ -61,8 +61,8 @@
 ## API Development
 - Nodejs in-built http - https://nodejs.org/docs/latest/api/http.html
 - Nodejs in-built https - https://nodejs.org/docs/latest/api/https.html
-- Expressjs - https://github.com/expressjs/express
-- Fastify -  https://github.com/fastify/fastifyhttps://github.com/fastify/fastify
+- Expressjs - https://github.com/expressjs/express/blob/master/Readme.md
+- Fastify -  https://github.com/fastify/fastify/blob/main/README.md
 
 
 
