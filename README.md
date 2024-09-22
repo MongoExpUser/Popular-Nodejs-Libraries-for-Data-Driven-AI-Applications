@@ -12,7 +12,7 @@
   
 
 ## Machine Learning
-- Tensorflow.js - hhttps://github.com/tensorflow/tfjs
+- Tensorflow.js - https://github.com/tensorflow/tfjs
 - Node-opencv - https://github.com/peterbraden/node-opencv
 - Brain.js - https://github.com/brainjs/brain.js
 - NLP.js - https://github.com/axa-group/nlp.js 
