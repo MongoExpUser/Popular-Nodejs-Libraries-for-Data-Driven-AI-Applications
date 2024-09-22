@@ -47,8 +47,10 @@
 - Goggle-chart - https://github.com/mmathias01/google-charts/blob/master/README.md and https://developers.google.com/chart
 
 
-## Messaging and Tasks Scheduler
+## Messaging, Queue and Tasks Scheduler
 - Zeromq.js - https://zeromq.github.io/zeromq.js/index.html
+- Queue - https://github.com/jessetane/queue/blob/master/readme.md
+- Better Queue - https://github.com/diamondio/better-queue/blob/master/README.md
 - Node-cron - https://github.com/node-cron/node-cron/blob/master/README.md
 - Cron - https://github.com/kelektiv/node-cron/blob/main/README.md
 
