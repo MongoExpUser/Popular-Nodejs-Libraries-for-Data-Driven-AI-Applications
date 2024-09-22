@@ -24,7 +24,7 @@
 - Node-opencv - https://github.com/peterbraden/node-opencv/blob/master/README.md
 - Brain.js - https://github.com/brainjs/brain.js/blob/master/README.md
 - NLP.js - https://github.com/axa-group/nlp.js/blob/master/README.md
-- Synaptic - https://caza.la/synaptic/#/
+- Synaptic - https://github.com/cazala/synaptic/blob/master/README.md and https://caza.la/synaptic/#/
 - Stdlib-js/ml - https://github.com/stdlib-js/ml/blob/main/README.md
 - Stdlib-js/npl - https://github.com/stdlib-js/nlp/blob/main/README.md
 
