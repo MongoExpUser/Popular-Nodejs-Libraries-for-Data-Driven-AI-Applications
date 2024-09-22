@@ -41,10 +41,10 @@
 
 
 ## Visualization (Web-Based Visualization)
-- D3.js - https://d3js.org/getting-started
-- C3.js - https://c3js.org/gettingstarted.html
-- Plotly.js - https://plotly.com/javascript/getting-started/
-- Goggle Chart - https://developers.google.com/chart
+- D3.js - https://github.com/d3/d3/blob/main/README.md and https://d3js.org/getting-started
+- C3.js - https://github.com/c3js/c3/blob/master/README.md and https://c3js.org/gettingstarted.html
+- Plotly.js - https://github.com/plotly/plotly.js/blob/master/README.md and https://plotly.com/javascript/getting-started/
+- Goggle-chart - https://github.com/mmathias01/google-charts/blob/master/README.md and https://developers.google.com/chart
 
 
 ## Messaging and Tasks Scheduler
