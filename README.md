@@ -1,7 +1,7 @@
 # Popular NodeJS Libraries for Developing Data-Driven AI Applications
 
 ### Purpose:  Data-Driven AI Applications Development                                                                                          
-- These links are provided as references and guides when designing and implementing Data-Driven AI Applications with NodeJS.
+- These links are provided as <strong>references</strong> and <strong>guides</strong> when designing and implementing Data-Driven AI Applications with NodeJS.
     
  
 ## Data Analytics 
@@ -36,7 +36,7 @@
 - Bedrock - https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/
 
 
-## Visualization (Web-based Visualization)
+## Visualization (Web-Based Visualization)
 - D3.js - https://d3js.org/getting-started
 - C3.js - https://c3js.org/gettingstarted.html
 - Plotly.js - https://plotly.com/javascript/getting-started/
