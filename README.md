@@ -1,6 +1,6 @@
 # Popular NodeJS Libraries for Developing Data-Driven AI Applications
 
-### Purpose:  Data Driven AI Applications Development                                                                                          
+### Purpose:  Data-Driven AI Applications Development                                                                                          
 - These links are provided as references and guides when designing and implementing Data-Driven AI Applications with NodeJS.
     
  
