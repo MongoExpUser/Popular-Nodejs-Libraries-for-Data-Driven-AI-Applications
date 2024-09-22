@@ -11,7 +11,7 @@
 - Math.js - https://github.com/josdejong/mathjs/blob/develop/README.md and https://mathjs.org/
   
 
-## Embedded (In-Process) Data Store
+## Embedded (In-Process) Database
 - Nodejs inbuilt SQLite module: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
 - Node-Sqlite - https://github.com/kriasoft/node-sqlite/blob/master/README.md
 - Node-json-db  - https://github.com/Belphemur/node-json-db/blob/master/README.md
