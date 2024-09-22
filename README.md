@@ -52,10 +52,10 @@
 ## Web Scrapping
 - Osmosis - https://github.com/rchipka/node-osmosis/blob/master/Readme.md
 - Cheeriojs - https://github.com/cheeriojs/cheerio/blob/master/Readme.md
-- Puppeteer - https://github.com/puppeteer/puppeteer/blob/master/Readme.md
-- Playright - https://github.com/microsoft/playwright/blob/master/Readme.md
+- Puppeteer - https://github.com/puppeteer/puppeteer/blob/main/README.md
+- Playright - https://github.com/microsoft/playwright/blob/main/README.md
 - Nodejs in-built fetch() client - https://nodejs.org/docs/latest/api/globals.html#fetch
-- Axios - https://github.com/axios/axios/blob/master/Readme.md
+- Axios - https://github.com/axios/axios/blob/v1.x/README.md
 
 
 ## API Development
