@@ -34,9 +34,10 @@
 - Cloudlare WorkerAI - https://developers.cloudflare.com/workers-ai/configuration/bindings/
 - GCP Gemini - https://github.com/google-gemini/generative-ai-js/blob/main/README.md
 - AWS Bedrock - https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/
-- OCI Generative AI (a) - https://www.npmjs.com/package/oci-generativeai and
-- OCI Generative AI (b) -  https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes)
 - Meta Node-llama-cpp - https://github.com/withcatai/node-llama-cpp/blob/master/README.md
+- OCI Generative AI (a) - https://www.npmjs.com/package/oci-generativeai
+- OCI Generative AI (b) -  https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes)
+
 
 
 ## Visualization (Web-Based Visualization)
