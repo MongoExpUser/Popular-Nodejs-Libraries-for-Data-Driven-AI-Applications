@@ -5,10 +5,11 @@
     
  
 ## Data Analytics 
+- Apache-arrow - https://arrow.apache.org/docs/js/
 - Nodejs-polars - https://pola-rs.github.io/nodejs-polars/index.html
 - Stdlib-js - https://github.com/stdlib-js/stdlib
 - Math.js - https://mathjs.org/
-
+  
 
 ## Machine Learning
 - Tensorflow.js - hhttps://github.com/tensorflow/tfjs
@@ -49,7 +50,6 @@
 - Axios - https://github.com/axios/axios
 
 
-
 ## Embedded/In-Process Data Store
 - Nodejs in-built SQLite modules: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
 - Node-Sqlite - https://github.com/kriasoft/node-sqlite
@@ -63,9 +63,6 @@
 - Nodejs in-built https - https://nodejs.org/docs/latest/api/https.html
 - Expressjs - https://github.com/expressjs/express
 - Fastify -  https://github.com/fastify/fastifyhttps://github.com/fastify/fastify
-
-
-
 
 
 
