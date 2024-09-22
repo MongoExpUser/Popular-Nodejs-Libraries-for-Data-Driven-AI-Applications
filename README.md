@@ -11,6 +11,14 @@
 - Math.js - https://mathjs.org/
   
 
+## Embedded (In-Process) Data Store
+- Nodejs in-built SQLite modules: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
+- Node-Sqlite - https://github.com/kriasoft/node-sqlite
+- Node-json-db  - https://github.com/Belphemur/node-json-db
+- Simple-json-db - https://github.com/nmaggioni/Simple-JSONdb#readme
+- LevelDB - https://github.com/my8bird/node-leveldb
+
+
 ## Machine Learning
 - Tensorflow.js - https://github.com/tensorflow/tfjs
 - Node-opencv - https://github.com/peterbraden/node-opencv
@@ -48,14 +56,6 @@
 - Playright - https://github.com/microsoft/playwright
 - Nodejs in-built fetch() client - https://nodejs.org/docs/latest/api/globals.html#fetch
 - Axios - https://github.com/axios/axios
-
-
-## Embedded/In-Process Data Store
-- Nodejs in-built SQLite modules: https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
-- Node-Sqlite - https://github.com/kriasoft/node-sqlite
-- Node-json-db  - https://github.com/Belphemur/node-json-db
-- Simple-json-db - https://github.com/nmaggioni/Simple-JSONdb#readme
-- LevelDB - https://github.com/my8bird/node-leveldb
 
 
 ## API Development
