@@ -31,7 +31,7 @@
 
 ## Generative AI (GenAI)
 - OpenAI Openai-node - https://github.com/openai/openai-node/blob/master/README.md
-- Cloudlare WorkerAI - https://developers.cloudflare.com/workers-ai/configuration/bindings/
+- Cloudflare WorkerAI - https://developers.cloudflare.com/workers-ai/configuration/bindings/
 - GCP Gemini - https://github.com/google-gemini/generative-ai-js/blob/main/README.md
 - AWS Bedrock - https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/
 - Meta Node-llama-cpp - https://github.com/withcatai/node-llama-cpp/blob/master/README.md
