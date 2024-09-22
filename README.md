@@ -7,8 +7,8 @@
 ## Data Analytics 
 - Apache-arrow - https://arrow.apache.org/docs/js/
 - Nodejs-polars - https://pola-rs.github.io/nodejs-polars/index.html
-- Stdlib-js - https://github.com/stdlib-js/stdlib/blob/develop/README.md  and  https://stdlib.io/docs/api/latest
-- Math.js - https://mathjs.org/
+- Stdlib-js - https://github.com/stdlib-js/stdlib/blob/develop/README.md and https://stdlib.io/docs/api/latest
+- Math.js - https://github.com/josdejong/mathjs/blob/develop/README.md and https://mathjs.org/
   
 
 ## Embedded (In-Process) Data Store
