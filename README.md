@@ -20,7 +20,7 @@
 
 
 ## Machine Learning
-- Tensorflow.js - https://github.com/tensorflow/tfjs/blob/master/README.md and https://www.tensorflow.org/js
+- TensorFlow.js - https://github.com/tensorflow/tfjs/blob/master/README.md and https://www.tensorflow.org/js
 - Node-opencv - https://github.com/peterbraden/node-opencv/blob/master/README.md
 - Brain.js - https://github.com/brainjs/brain.js/blob/master/README.md
 - NLP.js - https://github.com/axa-group/nlp.js/blob/master/README.md
