@@ -62,12 +62,12 @@
 - Axios - https://github.com/axios/axios/blob/v1.x/README.md
 
 
-## API Development
+## REST API Integration
 - Nodejs in-built http - https://nodejs.org/docs/latest/api/http.html
 - Nodejs in-built https - https://nodejs.org/docs/latest/api/https.html
 - Expressjs - https://github.com/expressjs/express/blob/master/Readme.md
 - Fastify -  https://github.com/fastify/fastify/blob/main/README.md
-
+- Hapi - https://github.com/hapijs/hapi/blob/master/README.md
 
 
 
