@@ -19,7 +19,7 @@
 - LevelDB - https://github.com/my8bird/node-leveldb/blob/master/README.md
 
 
-## Machine Learning
+## Traditional Machine Learning (ML)
 - TensorFlow.js - https://github.com/tensorflow/tfjs/blob/master/README.md and https://www.tensorflow.org/js
 - Node-opencv - https://github.com/peterbraden/node-opencv/blob/master/README.md
 - Brain.js - https://github.com/brainjs/brain.js/blob/master/README.md
@@ -29,7 +29,7 @@
 - Stdlib-js/npl - https://github.com/stdlib-js/nlp/blob/main/README.md
 
 
-## Generative AI (GenAI)
+## Generative AI (GenAI) Services
 - OpenAI Openai-node - https://github.com/openai/openai-node/blob/master/README.md
 - Cloudflare Workers AI - https://developers.cloudflare.com/workers-ai/configuration/bindings/
 - Google Gemini API - https://github.com/google-gemini/generative-ai-js/blob/main/README.md 
@@ -37,6 +37,7 @@
 - Meta Node-llama-cpp - https://github.com/withcatai/node-llama-cpp/blob/master/README.md
 - OCI Generative AI (a) - https://www.npmjs.com/package/oci-generativeai
 - OCI Generative AI (b) -  https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes)
+- Transformer.js - https://github.com/xenova/transformers.js/blob/main/README.md
 
 
 
