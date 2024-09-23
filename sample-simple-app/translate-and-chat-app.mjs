@@ -1,13 +1,13 @@
-/********************************************************************************************************************************
-*                                                                                                              			        *
-* Project:  Translations and Chats App with Nodejs Fetch API                                            			                  *
-*                                                                                                              			            *
-*  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                       			            *
-*                                                                                                              			            *
-*  License: MIT - https://github.com/MongoExpUser/Popular-Nodejs-Libraries-for-Data-Driven-AI-Applications/blob/main/LICENSE    *
-*                                                                                                                     		      *
-*                                                                                                                     		      *
-********************************************************************************************************************************/
+/*********************************************************************************************************************************
+*                                                                                                              			         *
+* Project:  Translations and Chats App with Nodejs Fetch API                                            			             *
+*                                                                                                              			         *
+*  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                       			         *
+*                                                                                                              			         *
+*  License: MIT - https://github.com/MongoExpUser/Popular-Nodejs-Libraries-for-Data-Driven-AI-Applications/blob/main/LICENSE     *
+*                                                                                                                     		     *
+*                                                                                                                     		     *
+**********************************************************************************************************************************/
 
 // translate-and-chat-app.js
 
@@ -19,7 +19,7 @@ class AIApp
 {
 	constructor()
 	{
-	return null;
+		return null;
 	}
 	
 	async prettyPrint(value)
@@ -34,7 +34,7 @@ class AIApp
 
 	async translationModel(text, sourceLanguage, targetLanguage, model, contentType, apiTokenOrKey, accountId)
 	{
-			const body =  JSON.stringify({  "text": text, "source_lang" : sourceLanguage.toLowerCase(), "target_lang":  targetLanguage.toLowerCase() });
+		const body =  JSON.stringify({  "text": text, "source_lang" : sourceLanguage.toLowerCase(), "target_lang":  targetLanguage.toLowerCase() });
 		const endpoint = `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`;
 		const method = "POST";
 		const authen = `Bearer ${apiTokenOrKey}`;
@@ -43,13 +43,13 @@ class AIApp
 		const res = await fetch(endpoint, options);
 		const responseJSON = await res.json();
 		const output = { 
-				"results": {
-					"input_lang" : `${sourceLanguage[0].toUpperCase()}${sourceLanguage.slice(1)}`,
-					"input_text" : text, 
-					"output_lang" : `${targetLanguage[0].toUpperCase()}${targetLanguage.slice(1)}`,
-					"output_text": responseJSON.result.translated_text 
-				}
-			};
+			"results": {
+				"input_lang" : `${sourceLanguage[0].toUpperCase()}${sourceLanguage.slice(1)}`,
+				"input_text" : text, 
+				"output_lang" : `${targetLanguage[0].toUpperCase()}${targetLanguage.slice(1)}`,
+				"output_text": responseJSON.result.translated_text 
+			}
+		};
 
 		return output;
 	}
