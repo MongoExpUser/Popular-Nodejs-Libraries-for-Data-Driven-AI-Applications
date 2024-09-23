@@ -9,7 +9,7 @@
 *                                                                                                                     		     *
 **********************************************************************************************************************************/
 
-// translate-and-chat-app.js
+//  translate-and-chat-app.js
 
 import { inspect } from "node:util";
 import { readFileSync } from "node:fs";
