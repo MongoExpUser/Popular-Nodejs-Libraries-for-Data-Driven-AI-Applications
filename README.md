@@ -29,7 +29,7 @@
 - Stdlib-js/npl - https://github.com/stdlib-js/nlp/blob/main/README.md
 
 
-## Generative AI (GenAI) Services
+## Generative AI (GenAI) Services - Paid and Free
 - OpenAI Openai-node - https://github.com/openai/openai-node/blob/master/README.md
 - Cloudflare Workers AI - https://developers.cloudflare.com/workers-ai/configuration/bindings/
 - Google Gemini API - https://github.com/google-gemini/generative-ai-js/blob/main/README.md 
