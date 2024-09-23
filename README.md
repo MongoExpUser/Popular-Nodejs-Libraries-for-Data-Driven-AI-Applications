@@ -68,8 +68,8 @@
 ## REST API Integration
 - Nodejs inbuilt http - https://nodejs.org/docs/latest/api/http.html
 - Nodejs inbuilt https - https://nodejs.org/docs/latest/api/https.html
-- Tinyhttp - https://github.com/tinyhttp/tinyhttp/blob/master/README.md
 - Expressjs - https://github.com/expressjs/express/blob/master/Readme.md
+- Tinyhttp - https://github.com/tinyhttp/tinyhttp/blob/master/README.md
 - Fastify -  https://github.com/fastify/fastify/blob/main/README.md
 - Hapi - https://github.com/hapijs/hapi/blob/master/README.md
 - Koa - https://github.com/koajs/koa#readme
