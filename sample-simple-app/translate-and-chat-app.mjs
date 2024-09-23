@@ -1,12 +1,12 @@
 /*********************************************************************************************************************************
-*                                                                                                              			             *
-* Project:  Translations and Chats App with Nodejs Fetch API                                            			                   *
-*                                                                                                              			             *
-*  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                       			             *
-*                                                                                                              			             *
+*                                                                                                              			 *
+* Project:  Translations and Chats App with Nodejs Fetch API                                            			 *
+*                                                                                                              			 *
+*  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                       			 *
+*                                                                                                              			 *
 *  License: MIT - https://github.com/MongoExpUser/Popular-Nodejs-Libraries-for-Data-Driven-AI-Applications/blob/main/LICENSE     *
-*                                                                                                                     		       *
-*                                                                                                                     		       *
+*                                                                                                                     		 *
+*                                                                                                                     		 *
 **********************************************************************************************************************************/
 
 //  translate-and-chat-app.js
