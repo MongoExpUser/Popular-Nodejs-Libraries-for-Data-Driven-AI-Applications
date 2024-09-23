@@ -58,7 +58,7 @@ class AIApp
 	{
 		if(provider === "cloudflare")
 		{
-				const body =  JSON.stringify( { "messages": [ { "role" : role, "content": content } ] } );
+			const body =  JSON.stringify( { "messages": [ { "role" : role, "content": content } ] } );
 			const endpoint = `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`;
 			const method = "POST";
 			const authen = `Bearer ${apiTokenOrKey}`;
