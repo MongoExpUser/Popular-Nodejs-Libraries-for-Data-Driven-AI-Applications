@@ -5,7 +5,7 @@
     
  
 ## Data Analytics 
-- Apache-arrow - https://github.com/apache/arrow/blob/main/README.md and https://arrow.apache.org/docs/js/
+- Apache-arrow - https://github.com/apache/arrow/blob/main/js/README.md and https://arrow.apache.org/docs/js/
 - Nodejs-polars - https://github.com/pola-rs/nodejs-polars/blob/main/README.md and  https://pola-rs.github.io/nodejs-polars/index.html
 - Stdlib-js - https://github.com/stdlib-js/stdlib/blob/develop/README.md and https://stdlib.io/docs/api/latest
 - Math.js - https://github.com/josdejong/mathjs/blob/develop/README.md and https://mathjs.org/
