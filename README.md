@@ -37,7 +37,8 @@
 
 ## Traditional Machine Learning (ML)
 - TensorFlow.js
-  * https://github.com/tensorflow/tfjs/blob/master/README.md and https://www.tensorflow.org/js
+  * https://github.com/tensorflow/tfjs/blob/master/README.md
+  * https://www.tensorflow.org/js
 - Node-opencv
   * https://github.com/peterbraden/node-opencv/blob/master/README.md
 - Brain.js
@@ -64,9 +65,8 @@
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/ (Paid)
 - Meta Node-llama-cpp
   * https://github.com/withcatai/node-llama-cpp/blob/master/README.md (Paid)
-- OCI Generative AI (a)
+- OCI Generative AI
   * https://www.npmjs.com/package/oci-generativeai (Paid)
-- OCI Generative AI (b)
   * https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes) 
 - Transformer.js
   * https://github.com/xenova/transformers.js/blob/main/README.md (Free)
@@ -75,13 +75,17 @@
 
 ## Visualization (Web-Based Visualization)
 - D3.js
-  * https://github.com/d3/d3/blob/main/README.md and https://d3js.org/getting-started
+  * https://github.com/d3/d3/blob/main/README.md
+  * https://d3js.org/getting-started
 - C3.js
-  * https://github.com/c3js/c3/blob/master/README.md and https://c3js.org/gettingstarted.html
+  * https://github.com/c3js/c3/blob/master/README.md
+  * https://c3js.org/gettingstarted.html
 - Plotly.js
-  * https://github.com/plotly/plotly.js/blob/master/README.md and https://plotly.com/javascript/getting-started/
+  * https://github.com/plotly/plotly.js/blob/master/README.md
+  * https://plotly.com/javascript/getting-started/
 - Goggle-chart
-  * https://github.com/mmathias01/google-charts/blob/master/README.md and https://developers.google.com/chart
+  * https://github.com/mmathias01/google-charts/blob/master/README.md
+  * https://developers.google.com/chart
 
 
 ## Messaging, Queue and Tasks Scheduler
