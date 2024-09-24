@@ -1,7 +1,7 @@
 /********************************************************************************************************************************
 * classify-review-embed-free.mjs                                                                       			        *                            
 *                                                                                                                		*
-* Project:  Text and Image App (classify, review and embed) with Nodejs GenAI free libraries.                                    *
+* Project:  Text and Image classification, review and embedding with NodeJS GenAI free libraries.                               *
 *                                                                             							*
 *  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                 					*
 *                                                                                     						*
