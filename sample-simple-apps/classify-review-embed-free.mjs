@@ -50,7 +50,7 @@ class AIApp
 		    for(let index = 0; index < textLen; index++)
 		    {
 		        const text = texts[index];
-						const cplResult = await cpl(text);
+			const cplResult = await cpl(text);
 		        classifierResults.push(cplResult);
 		    }
 
@@ -70,7 +70,7 @@ class AIApp
 		    for(let index = 0; index < textLen; index++)
 		    {
 		        const text = texts[index];
-						const rplResult = await rpl(text);
+			const rplResult = await rpl(text);
 		        reviewerResults.push(rplResult);
 		    }
 
@@ -164,7 +164,7 @@ class AIApp
 		{
 		    const aiapp = new AIApp();
       
-		    const imageFiles = [
+		    const imageFilesToEmbed = [
 		    	"nodejs-logo.png",
 		    	"python-logo.png",
 		    	"rust-logo.png"
@@ -193,15 +193,15 @@ class AIApp
 
 		    // 3. image embedding with tensorflow.js
 		    // a. mobilenet
-		    const imageEmbeddingsTfMob = await aiapp.generateImageEmbeddingsWithTensorFlowMobilenet(imageFiles);
+		    const imageEmbeddingsTfMob = await aiapp.generateImageEmbeddingsWithTensorFlowMobilenet(imageFilesToEmbed);
 		    await prettyPrint( { "imageEmbeddingTensorFlowMob" : imageEmbeddingsTfMob } );
 
 		    // b. use - universal sentense encoder
-		    const imageEmbeddingsTfUse = await aiapp.generateImageEmbeddingsWithTensorFlowUse(imageFiles);
+		    const imageEmbeddingsTfUse = await aiapp.generateImageEmbeddingsWithTensorFlowUse(imageFilesToEmbed);
 		    await prettyPrint( { "imageEmbeddingTensorFlowuse" : imageEmbeddingsTfUse } );
 
 		    // 4. image embedding with transformer.js
-		    const imageEmbeddingsTr = await aiapp.generateImageEmbeddingsWithTransformer(imageFiles);
+		    const imageEmbeddingsTr = await aiapp.generateImageEmbeddingsWithTransformer(imageFilesToEmbed);
 		    await prettyPrint( { "imageEmbeddingTransformer" : imageEmbeddingsTr} );
 
 		    // 5. text embedding with transformer.js
