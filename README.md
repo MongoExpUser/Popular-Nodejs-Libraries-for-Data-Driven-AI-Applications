@@ -70,9 +70,9 @@
   * https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes) 
 - Transformer.js
   * https://github.com/xenova/transformers.js/blob/main/README.md (Free)
-- Tensorflow.js Universal Sentence Encoder 
+- TensorFlow.js Universal Sentence Encoder 
   * https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md (Free)
-- Tensorflow.js Mobilenet
+- TensorFlow.js Mobilenet
   * https://github.com/tensorflow/tfjs-models/blob/master/mobilenet/README.md (Free)
 
 
