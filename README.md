@@ -9,6 +9,7 @@
 - Nodejs-polars - https://pola-rs.github.io/nodejs-polars/index.html
 - Stdlib-js - https://github.com/stdlib-js/stdlib/blob/develop/README.md and https://stdlib.io/docs/api/latest
 - Math.js - https://github.com/josdejong/mathjs/blob/develop/README.md and https://mathjs.org/
+- Numjs - https://github.com/nicolaspanel/numjs/blob/master/README.md and https://nicolaspanel.github.io/numjs/NdArray.html
   
 
 ## Embedded (In-Process) Database
