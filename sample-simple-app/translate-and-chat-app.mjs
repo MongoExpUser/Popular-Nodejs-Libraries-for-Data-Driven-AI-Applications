@@ -1,5 +1,6 @@
 /*********************************************************************************************************************************
-*                                                                                                              			 *
+* translate-and-chat-app.js                                                                                                      *         			 *
+* 																 *
 * Project:  Translations and Chats App with Nodejs Fetch API                                            			 *
 *                                                                                                              			 *
 *  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                       			 *
@@ -9,7 +10,16 @@
 *                                                                                                                     		 *
 **********************************************************************************************************************************/
 
-//  translate-and-chat-app.js
+/*
+   Note: The use of Fetch API has the  following advantages:
+    - You only have to deal with consistent arguments when  passing in arguments. These include
+      - endpoint or url
+      - options:  method, headers and body (factor each provider model to the body)
+    - Iresspective of the provider model you are calling, just create the above input endpoint and options and pass as arugment
+      i.e. use consistent sets of arguments directly within your applications.
+*/
+
+
 
 import { inspect } from "node:util";
 import { readFileSync } from "node:fs";
@@ -24,7 +34,7 @@ class AIApp
 	
 	async prettyPrint(value)
 	{
-	    console.log(inspect(value, { showHidden: false, colors: true, depth: Infinity }));
+	    	console.log(inspect(value, { showHidden: false, colors: true, depth: Infinity }));
 	}
 	
 	async separator()
