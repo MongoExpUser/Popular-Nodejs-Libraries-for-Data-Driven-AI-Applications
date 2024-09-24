@@ -185,28 +185,28 @@ class AIApp
 
 		    // 1. text sa-review with transformer.js
 		    const textReviewTr  = await aiapp.reviewText(textsToReview);
-		    await prettyPrint( { "textReviewTransformer" : textReviewTr } );
+		    await aiapp.prettyPrint( { "textReviewTransformer" : textReviewTr } );
 
 		    // 2. text sa-classification with transformer.js
 		    const textClassifyTr  = await aiapp.classifyText(textsToClassify);
-		    await prettyPrint( { "textClassifierTransformer" : textClassifyTr } );
+		    await aiapp.prettyPrint( { "textClassifierTransformer" : textClassifyTr } );
 
 		    // 3. image embedding with tensorflow.js
 		    // a. mobilenet
 		    const imageEmbeddingsTfMob = await aiapp.generateImageEmbeddingsWithTensorFlowMobilenet(imageFilesToEmbed);
-		    await prettyPrint( { "imageEmbeddingTensorFlowMob" : imageEmbeddingsTfMob } );
+		    await aiapp.prettyPrint( { "imageEmbeddingTensorFlowMob" : imageEmbeddingsTfMob } );
 
 		    // b. use - universal sentense encoder
 		    const imageEmbeddingsTfUse = await aiapp.generateImageEmbeddingsWithTensorFlowUse(imageFilesToEmbed);
-		    await prettyPrint( { "imageEmbeddingTensorFlowuse" : imageEmbeddingsTfUse } );
+		    await aiapp.prettyPrint( { "imageEmbeddingTensorFlowuse" : imageEmbeddingsTfUse } );
 
 		    // 4. image embedding with transformer.js
 		    const imageEmbeddingsTr = await aiapp.generateImageEmbeddingsWithTransformer(imageFilesToEmbed);
-		    await prettyPrint( { "imageEmbeddingTransformer" : imageEmbeddingsTr} );
+		    await aiapp.prettyPrint( { "imageEmbeddingTransformer" : imageEmbeddingsTr} );
 
 		    // 5. text embedding with transformer.js
 		    const textEmbeddingsTr  = await aiapp.generateTextEmbeddingsWithTransformer(textsToEmbed);
-		    await prettyPrint( { "textEmbeddingTransformer" : textEmbeddingsTr } );
+		    await aiapp.prettyPrint( { "textEmbeddingTransformer" : textEmbeddingsTr } );
 		}
 }
 
