@@ -1,5 +1,5 @@
 /*********************************************************************************************************************************
-* translate-and-chat-app.js                                                                                                      *         			 *
+* translate-and-chat-app.js                                                                                                      *
 * 																 *
 * Project:  Translations and Chats with NodeJS Fetch API and Paid GenAI Libraries.                               	         *
 *                                                                                                              			 *
