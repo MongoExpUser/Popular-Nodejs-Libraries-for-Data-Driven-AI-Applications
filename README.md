@@ -35,7 +35,7 @@
   * https://github.com/my8bird/node-leveldb/blob/master/README.md
 
 
-## Traditional Machine Learning (ML)
+## Traditional Machine Learning (ML) - Train, Validate & Test
 - TensorFlow.js
   * https://github.com/tensorflow/tfjs/blob/master/README.md
   * https://www.tensorflow.org/js
@@ -70,6 +70,10 @@
   * https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes) 
 - Transformer.js
   * https://github.com/xenova/transformers.js/blob/main/README.md (Free)
+- Tensorflow.js Universal Sentence Encoder 
+  * https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md (Free)
+- Tensorflow.js Mobilenet
+  * https://github.com/tensorflow/tfjs-models/blob/master/mobilenet/README.md (Free)
 
 
 
