@@ -99,8 +99,8 @@ class AIApp
 		if(translate === true)
 		{
 			// translate:  Cloudlare provider model (model made by meta)
-			const apiTokenOrKey = "f5KKWWfax9UZiCm9SZASPgW31CvACSNoZ6U4nqvq";
-			const accountId = "9c8e4a89b3963e01d3ba8ed640ad1e79";
+			const apiTokenOrKey = "myApiTokenOrKey";
+			const accountId = "myAccountId";
 			const contentType = "application/json";  
 			const transModel = "@cf/meta/m2m100-1.2b"; 
 			const text =  "What is you name?";
