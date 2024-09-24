@@ -34,7 +34,7 @@ class AIApp
 
 		async separator()
 		{
-		  		console.log(`------------------------------------------------------------------------`);
+		   console.log(`------------------------------------------------------------------------`);
 		}
 
 		async classifyText(texts)
@@ -59,7 +59,7 @@ class AIApp
 
 		async reviewText(texts)
 		{
-				console.log("");
+		    console.log("");
 		    console.log("-- Review Text with Transformer.js --");
 
 		    const reviewerResults = [];
@@ -79,7 +79,7 @@ class AIApp
 
 		async generateImageEmbeddingsWithTensorFlowMobilenet(files)
 		{
-				console.log("");
+		    console.log("");
 		    console.log("-- Generate Image Embeddings with TensorFlow.js - Mobilenet Model- -");
 
 		    const embeddings = []
@@ -100,7 +100,7 @@ class AIApp
 
 		async generateImageEmbeddingsWithTensorFlowUse(files)
 		{
-				console.log("");
+		    console.log("");
 		    console.log("-- Generate Image Embeddings with TensorFlow.js - Use (universal-sentence-encoder) Model --");
 
 		    const embeddings = []
@@ -121,13 +121,13 @@ class AIApp
 
 		async generateImageEmbeddingsWithTransformer(files)
 		{
-				console.log("");
+		    console.log("");
 		    console.log("-- Generating Image Embeddings with Transformer.js --");
 
 		    const embeddings = []
 		    const fileLen  = files.length;
 		    const imageFeatureExtractorModel = "Xenova/vit-base-patch16-224-in21k";
-				const ifepl = await pipeline("image-feature-extraction", imageFeatureExtractorModel);
+		    const ifepl = await pipeline("image-feature-extraction", imageFeatureExtractorModel);
 
 		    for(let index = 0; index < fileLen; index++)
 		    {
@@ -142,13 +142,13 @@ class AIApp
 
 		async generateTextEmbeddingsWithTransformer(texts)
 		{
-				console.log("");
+		    console.log("");
 		    console.log("-- Generating Text Embeddings with Transformer.js --");
 
 		    const embeddings = []
 		    const textLen  = texts.length;
 		    const textFeatureExtractor = "Xenova/all-MiniLM-L6-v2";
-				const tfepl = await pipeline("feature-extraction", textFeatureExtractor);
+		    const tfepl = await pipeline("feature-extraction", textFeatureExtractor);
 
 		    for(let index = 0; index < textLen; index++)
 		    {
@@ -162,7 +162,7 @@ class AIApp
 
 		async testAIApp()
 		{
-				const aiapp = new AIApp();
+		    const aiapp = new AIApp();
       
 		    const imageFiles = [
 		    	"nodejs-logo.png",
