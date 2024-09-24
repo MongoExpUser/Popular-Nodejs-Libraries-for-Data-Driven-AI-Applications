@@ -121,13 +121,11 @@ class AIApp
 			// message:  Cloudlare provider model (model made by meta or google)
 			let apiTokenOrKey = "myApiTokenOrKey";
 			let accountId = "myAccountId";
-
 			let contentType = "application/json"; 
 			let msgModel = "@cf/meta/llama-3-8b-instruct"  || "@hf/google/gemma-7b-it" || "@cf/google/gemma-7b-it-lora" || "@cf/google/gemma-2b-it-lora";
 			let role = "user"
 			let content = "Implement a JavaScript class for calculation sum of n numbers.";  // example
 			let provider = "cloudflare";
-
 
 			const msgModelOutputCloudflare = await  aipp.chatModel(content, role, msgModel, provider, contentType, apiTokenOrKey, accountId);
 			
@@ -141,13 +139,11 @@ class AIApp
 			// message:  OpenAPI provider model (model made by openai)
 			apiTokenOrKey = "myApiTokenOrKey";
 			accountId = "N-A";
-
 			contentType = "application/json"; 
 			msgModel =  "gpt-3.5-turbo-0125" || "gpt-4o-mini-2024-07-18" || "gpt-4o-2024-08-06" ; 
 			role = "user";
 			content = "Implement a JavaScript class for calculating sum of n numbers.";  // example
 			provider = "openai";
-
 
 			const msgModelOutputOpenai = await aipp.chatModel(content, role, msgModel, provider, contentType, apiTokenOrKey, accountId);
 			
