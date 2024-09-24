@@ -1,5 +1,5 @@
 /********************************************************************************************************************************
-* classify-review-embed-free.js                                                                       			        *                            
+* classify-review-embed-free.mjs                                                                       			        *                            
 *                                                                                                                		*
 * Project:  Text and Image App (classify, review and embed) with Nodejs GenAI free libraries                                    *
 *                                                                             							*
