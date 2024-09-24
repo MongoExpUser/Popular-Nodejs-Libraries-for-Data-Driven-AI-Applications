@@ -24,7 +24,7 @@
 
 ## Embedded (In-Process) Database
 - Nodejs inbuilt SQLite module
-  * https://nodejs.org/docs/latest/api/sqlite.html  -> --experimental-sqlite
+  * https://nodejs.org/docs/latest/api/sqlite.html  ( <strong> --experimental-sqlite </strong> )
 - Node-Sqlite
   * https://github.com/kriasoft/node-sqlite/blob/master/README.md
 - Node-json-db
@@ -35,7 +35,7 @@
   * https://github.com/my8bird/node-leveldb/blob/master/README.md
 
 
-## Traditional Machine Learning (ML) - Train, Validate & Test
+## Traditional Machine Learning (ML) - Train, Validate and Test
 - TensorFlow.js
   * https://github.com/tensorflow/tfjs/blob/master/README.md
   * https://www.tensorflow.org/js
@@ -92,7 +92,7 @@
   * https://developers.google.com/chart
 
 
-## Messaging, Queue and Tasks Scheduler
+## Messaging, Queue and Task Scheduler
 - Zeromq.js
   * https://zeromq.github.io/zeromq.js/index.html
 - Queue
