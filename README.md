@@ -67,7 +67,7 @@
   * https://github.com/withcatai/node-llama-cpp/blob/master/README.md (Paid)
 - OCI Generative AI
   * https://www.npmjs.com/package/oci-generativeai (Paid)
-  * https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes) 
+  * https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (Sample codes) 
 - Transformer.js
   * https://github.com/xenova/transformers.js/blob/main/README.md (Free)
 - TensorFlow.js Universal Sentence Encoder 
