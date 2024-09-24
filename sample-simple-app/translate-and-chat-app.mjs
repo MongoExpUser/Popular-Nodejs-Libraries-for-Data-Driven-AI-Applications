@@ -12,9 +12,9 @@
 
 /*
    Note 1: The use of Fetch API has the  following advantages:
-    - You only have to deal with consistent arguments when  passing in arguments. These include
+    - You only have to deal with consistent arguments when  passing in arguments. These include:
       - endpoint or url
-      - options:  method, headers and body (factor each provider model to the body)
+      - options:  method, headers and body (factor each providers' model to the body)
     - Irrespective of the providers' model you are calling, just create the above input endpoint and options and pass as arugment
       i.e. use consistent sets of arguments directly within your applications.
   Note 2: You still have to extract the response of providers's model based on the output object.
