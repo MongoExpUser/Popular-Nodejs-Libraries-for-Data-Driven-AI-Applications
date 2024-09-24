@@ -1,12 +1,12 @@
 /********************************************************************************************************************************
-* classify-review-embed-free.js                                                                                    					     *                            
-*                                                                                                                     					*
+* classify-review-embed-free.js                                                                       			        *                            
+*                                                                                                                		*
 * Project:  Text and Image App (classify, review and embed) with Nodejs GenAI free libraries                                    *
-*                                                                                                              									*
-*  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                       									*
-*                                                                                                              									*
+*                                                                             							*
+*  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                 					*
+*                                                                                     						*
 *  License: MIT - https://github.com/MongoExpUser/Popular-Nodejs-Libraries-for-Data-Driven-AI-Applications/blob/main/LICENSE    *
-*                                                                                                                     					*
+*                                                                                                            			*
 ********************************************************************************************************************************/
 
 //
