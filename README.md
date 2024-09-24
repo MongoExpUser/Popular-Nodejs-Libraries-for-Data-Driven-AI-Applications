@@ -30,14 +30,14 @@
 
 
 ## Generative AI (GenAI) Services - Paid and Free
-- OpenAI Openai-node - https://github.com/openai/openai-node/blob/master/README.md
-- Cloudflare Workers AI - https://developers.cloudflare.com/workers-ai/configuration/bindings/
-- Google Gemini API - https://github.com/google-gemini/generative-ai-js/blob/main/README.md 
-- AWS Bedrock - https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/
-- Meta Node-llama-cpp - https://github.com/withcatai/node-llama-cpp/blob/master/README.md
-- OCI Generative AI (a) - https://www.npmjs.com/package/oci-generativeai
-- OCI Generative AI (b) -  https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes)
-- Transformer.js - https://github.com/xenova/transformers.js/blob/main/README.md
+- OpenAI Openai-node - https://github.com/openai/openai-node/blob/master/README.md (Paid)
+- Cloudflare Workers AI - https://developers.cloudflare.com/workers-ai/configuration/bindings/ (Paid)
+- Google Gemini API - https://github.com/google-gemini/generative-ai-js/blob/main/README.md (Paid)
+- AWS Bedrock - https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/ (Paid)
+- Meta Node-llama-cpp - https://github.com/withcatai/node-llama-cpp/blob/master/README.md (Paid)
+- OCI Generative AI (a) - https://www.npmjs.com/package/oci-generativeai (Paid)
+- OCI Generative AI (b) -  https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (sample codes) 
+- Transformer.js - https://github.com/xenova/transformers.js/blob/main/README.md (Free)
 
 
 
