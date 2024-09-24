@@ -13,8 +13,8 @@
 import { Image } from "image-js";
 import { inspect } from "node:util";
 import { readFileSync } from "node:fs";
-import { pipeline } from '@xenova/transformers';
 import * as tf from "@tensorflow/tfjs-node";
+import { pipeline } from '@xenova/transformers';
 import * as mobilenet from "@tensorflow-models/mobilenet";
 import * as encoder from "@tensorflow-models/universal-sentence-encoder";
 
