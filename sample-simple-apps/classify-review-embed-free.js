@@ -22,20 +22,20 @@ import * as encoder from "@tensorflow-models/universal-sentence-encoder";
 
 class AIApp
 {
-    constructor()
-    {
-      return null;
-    }
-
-    async prettyPrint(value)
-		{
-		    console.log(inspect(value, { showHidden: false, colors: true, depth: Infinity }));
-		}
+	        constructor()
+	        {
+	      	   return null;
+	        }
+	
+	        async prettyPrint(value)
+	        {
+		   console.log(inspect(value, { showHidden: false, colors: true, depth: Infinity }));
+	        }
 
 		async separator()
-	  {
-	  		console.log(`------------------------------------------------------------------------`);
-	  }
+		{
+		  		console.log(`------------------------------------------------------------------------`);
+		}
 
 		async classifyText(texts)
 		{
