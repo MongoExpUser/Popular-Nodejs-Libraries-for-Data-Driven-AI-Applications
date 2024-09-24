@@ -9,6 +9,7 @@
 *                                                                                                                     					*
 ********************************************************************************************************************************/
 
+
 import { Image } from "image-js";
 import { inspect } from "node:util";
 import { readFileSync } from "node:fs";
