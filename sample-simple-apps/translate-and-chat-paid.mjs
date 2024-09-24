@@ -7,7 +7,6 @@
 *                                                                                                              			 *
 *  License: MIT - https://github.com/MongoExpUser/Popular-Nodejs-Libraries-for-Data-Driven-AI-Applications/blob/main/LICENSE     *
 *                                                                                                                     		 *
-*                                                                                                                     		 *
 **********************************************************************************************************************************/
 
 /*
