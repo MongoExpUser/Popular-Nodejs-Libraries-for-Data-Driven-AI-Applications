@@ -1,7 +1,7 @@
 /*********************************************************************************************************************************
 * translate-and-chat-app.js                                                                                                      *         			 *
 * 																 *
-* Project:  Translations and Chats App with Nodejs Fetch API and Paid GenAI libraries.                                           			 *
+* Project:  Translations and Chats with NodeJS Fetch API and Paid GenAI Libraries.                               	         *
 *                                                                                                              			 *
 *  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                       			 *
 *                                                                                                              			 *
