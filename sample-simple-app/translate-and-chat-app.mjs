@@ -15,7 +15,7 @@
     - You only have to deal with consistent arguments when  passing in arguments. These include
       - endpoint or url
       - options:  method, headers and body (factor each provider model to the body)
-    - Iresspective of the provider model you are calling, just create the above input endpoint and options and pass as arugment
+    - irrespective of the provider model you are calling, just create the above input endpoint and options and pass as arugment
       i.e. use consistent sets of arguments directly within your applications.
 */
 
