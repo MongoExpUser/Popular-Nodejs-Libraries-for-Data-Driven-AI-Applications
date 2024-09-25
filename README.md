@@ -11,6 +11,10 @@
 - Nodejs-polars
   * https://github.com/pola-rs/nodejs-polars/blob/main/README.md
   * https://pola-rs.github.io/nodejs-polars/index.html
+- Data-forge
+  * https://github.com/data-forge/data-forge-ts/blob/master/README.md
+  * https://data-forge.github.io/data-forge-ts/
+  * https://www.data-forge-js.com/
 - Stdlib-js
   * https://github.com/stdlib-js/stdlib/blob/develop/README.md
   * https://stdlib.io/docs/api/latest
@@ -20,10 +24,7 @@
 - Numjs
   * https://github.com/nicolaspanel/numjs/blob/master/README.md
   * https://nicolaspanel.github.io/numjs/NdArray.html
-- Data-forge
-  * https://github.com/data-forge/data-forge-ts/blob/master/README.md
-  * https://data-forge.github.io/data-forge-ts/
-  * https://www.data-forge-js.com/
+
   
 
 ## Embedded (In-Process) Database
