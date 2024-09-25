@@ -90,6 +90,15 @@
 - Goggle-chart
   * https://github.com/mmathias01/google-charts/blob/master/README.md
   * https://developers.google.com/chart
+- HTML Canvas
+  * https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+- Node-canvas
+  * https://github.com/Automattic/node-canvas/blob/master/Readme.md
+- Chart.js
+  * https://github.com/chartjs/Chart.js/blob/master/README.md
+  * https://www.chartjs.org/docs/latest/
+ 
+    
 
 
 ## Messaging, Queue and Task Scheduler
