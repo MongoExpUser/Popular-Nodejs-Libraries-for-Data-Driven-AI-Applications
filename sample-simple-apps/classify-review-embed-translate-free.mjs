@@ -186,12 +186,6 @@ class AIApp
 		{
 		    const aiapp = new AIApp();
       
-		    const imageFilesToEmbed = [
-		    	"nodejs-logo.png",
-		    	"python-logo.png",
-		    	"rust-logo.png"
-		    ];
-      
 		    const textsToReview = [
 		    	"The location is very far.", 
 		    	"The hotel is okay."
@@ -203,6 +197,14 @@ class AIApp
 		    	"The support provided is excellent."
 		    ];
 
+		    const imageFilesToEmbed = [
+		    	"nodejs-logo.png",
+		    	"python-logo.png",
+		    	"rust-logo.png"
+		    ];
+
+		   const textsToEmbed = ["The project is going as planned."];
+
 		    const textsToTranslate = [
 			"What is your name.",
 			"I like to walk my dog.",
@@ -210,9 +212,6 @@ class AIApp
 		    ];
 		    const sourceLanguage = "eng_Latn";
 		    const targetLanguage = "yor_Latn";
-		    
-      
-		    const textsToEmbed = ["The project is going as planned."]
 
 		    // 1. text sa-review with transformer.js
 		    const textReviewTr  = await aiapp.reviewText(textsToReview);
