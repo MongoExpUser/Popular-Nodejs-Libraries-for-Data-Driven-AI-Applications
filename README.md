@@ -54,7 +54,7 @@
   * https://github.com/stdlib-js/nlp/blob/main/README.md
 
 
-## Generative AI (GenAI) Services - Paid and Free
+## Generative AI (GenAI) Service - Paid and Free
 - OpenAI Openai-node
   * https://github.com/openai/openai-node/blob/master/README.md (Paid)
 - Cloudflare Workers AI
