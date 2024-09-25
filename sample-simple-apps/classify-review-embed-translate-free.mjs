@@ -79,7 +79,7 @@ class AIApp
 		async generateImageEmbeddingsWithTensorFlowMobilenet(files)
 		{
 		    console.log("");
-		    console.log("-- Generate Image Embeddings with TensorFlow.js - Mobilenet Model- -");
+		    console.log("-- Generate Image Embeddings with TensorFlow.js - Mobilenet Model --");
 
 		    const embeddings = []
 		    const fileLen  = files.length;
