@@ -106,6 +106,7 @@
 
 ## Messaging, Queue and Task Scheduler
 - Zeromq.js
+  * https://github.com/zeromq/zeromq.js/blob/master/README.md
   * https://zeromq.github.io/zeromq.js/index.html
 - Queue
   * https://github.com/jessetane/queue/blob/master/readme.md
