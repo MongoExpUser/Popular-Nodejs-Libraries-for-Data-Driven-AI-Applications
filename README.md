@@ -23,7 +23,7 @@
   
 
 ## Embedded (In-Process) Database
-- Nodejs inbuilt SQLite module
+- Nodejs Inbuilt SQLite Module
   * https://nodejs.org/docs/latest/api/sqlite.html  ( <strong> --experimental-sqlite </strong> )
 - Node-sqlite
   * https://github.com/kriasoft/node-sqlite/blob/master/README.md
