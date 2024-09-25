@@ -1,5 +1,5 @@
 /********************************************************************************************************************************
-* classify-review-embed-translatefree.mjs                                                                              	        *                            
+* classify-review-embed-translate-free.mjs                                                                                      *                            
 *                                                                                                                		*
 * Project:  Classifications, Reviews, Embeddings and Translations  with NodeJS GenAI Free Libraries.                            *
 *                                                                             							*
