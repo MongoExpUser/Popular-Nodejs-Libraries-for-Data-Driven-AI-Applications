@@ -25,8 +25,11 @@
 ## Embedded (In-Process) Database
 - Nodejs inbuilt SQLite module
   * https://nodejs.org/docs/latest/api/sqlite.html  ( <strong> --experimental-sqlite </strong> )
-- Node-Sqlite
+- Node-sqlite
   * https://github.com/kriasoft/node-sqlite/blob/master/README.md
+- Duckdb-node
+  * https://github.com/duckdb/duckdb-node/blob/main/README.md
+  * https://duckdb.org/docs/api/nodejs/overview.html
 - Node-json-db
   * https://github.com/Belphemur/node-json-db/blob/master/README.md
 - Simple-json-db
