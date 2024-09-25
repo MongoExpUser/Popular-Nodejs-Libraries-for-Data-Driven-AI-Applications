@@ -169,7 +169,6 @@ class AIApp
 		    const translator = "Xenova/nllb-200-distilled-600M";
 		    const trpl = await pipeline('translation', translator);
 
-		    // translate English Language to Yoruba Language
 		    const languageOptions = { src_lang: sourceLanguage, tgt_lang: targetLanguage };
 
 		    for(let index = 0; index < textLen; index++)
@@ -210,8 +209,9 @@ class AIApp
 			"I like to walk my dog.",
 			"I want to visit my mum and dad."
 		    ];
-		    const sourceLanguage = "eng_Latn";
-		    const targetLanguage = "yor_Latn";
+		    const sourceLanguage = "eng_Latn"; // English Language
+		    const targetLanguage = "yor_Latn"; // Yoruba Language
+		    // link to supported languages: https://github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200
 
 		    // 1. text sa-review with transformer.js
 		    const textReviewTr  = await aiapp.reviewText(textsToReview);
