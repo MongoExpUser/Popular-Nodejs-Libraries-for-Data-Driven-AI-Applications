@@ -123,6 +123,7 @@
 ## REST API Integration
 - Nodejs inbuilt http
   * https://nodejs.org/docs/latest/api/http.html
+  * https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction
 - Nodejs inbuilt https
   * https://nodejs.org/docs/latest/api/https.html
 - Expressjs
