@@ -20,6 +20,10 @@
 - Numjs
   * https://github.com/nicolaspanel/numjs/blob/master/README.md
   * https://nicolaspanel.github.io/numjs/NdArray.html
+- Data-forge
+  * https://github.com/data-forge/data-forge-ts/blob/master/README.md
+  * https://data-forge.github.io/data-forge-ts/
+  * https://www.data-forge-js.com/
   
 
 ## Embedded (In-Process) Database
