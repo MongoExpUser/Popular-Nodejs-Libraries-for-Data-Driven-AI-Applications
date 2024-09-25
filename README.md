@@ -126,17 +126,17 @@
   * https://github.com/puppeteer/puppeteer/blob/main/README.md
 - Playright
   * https://github.com/microsoft/playwright/blob/main/README.md
-- Nodejs
-  * inbuilt fetch() client - https://nodejs.org/docs/latest/api/globals.html#fetch
+- Nodejs Inbuilt Fetch Client
+  * https://nodejs.org/docs/latest/api/globals.html#fetch
 - Axios
   * https://github.com/axios/axios/blob/v1.x/README.md
 
 
 ## REST API Integration
-- Nodejs inbuilt http
+- Nodejs Inbuilt Http
   * https://nodejs.org/docs/latest/api/http.html
   * https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction
-- Nodejs inbuilt https
+- Nodejs Inbuilt Https
   * https://nodejs.org/docs/latest/api/https.html
 - Expressjs
   * https://github.com/expressjs/express/blob/master/Readme.md
