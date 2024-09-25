@@ -27,9 +27,11 @@
   * https://nodejs.org/docs/latest/api/sqlite.html  ( <strong> --experimental-sqlite </strong> )
 - Node-sqlite
   * https://github.com/kriasoft/node-sqlite/blob/master/README.md
+  * https://sqlite.org/about.html
 - Duckdb-node
   * https://github.com/duckdb/duckdb-node/blob/main/README.md
   * https://duckdb.org/docs/api/nodejs/overview.html
+  * https://duckdb.org/
 - Node-json-db
   * https://github.com/Belphemur/node-json-db/blob/master/README.md
 - Simple-json-db
