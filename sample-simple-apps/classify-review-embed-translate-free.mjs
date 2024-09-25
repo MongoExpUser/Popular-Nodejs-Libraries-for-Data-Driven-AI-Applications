@@ -239,7 +239,7 @@ class AIApp
 		    await aiapp.prettyPrint( { "textEmbeddingTransformer" : textEmbeddingsTr } );
 
 		    // 6. text translation with transformer.js
-		    const textTranslatorTr = await translateText(textsToTranslate, sourceLanguage, targetLanguage);
+		    const textTranslatorTr = await aiapp.translateText(textsToTranslate, sourceLanguage, targetLanguage);
 		    await aiapp.prettyPrint( { "textTranslatorTransformer" : textTranslatorTr } );
 		    /*
 			// results - perfect translation - excellent model
