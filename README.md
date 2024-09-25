@@ -68,6 +68,7 @@
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-bedrock/ (Paid)
 - Meta Node-llama-cpp
   * https://github.com/withcatai/node-llama-cpp/blob/master/README.md (Free)
+  * https://node-llama-cpp.withcat.ai/guide/ (Free)
 - OCI Generative AI
   * https://www.npmjs.com/package/oci-generativeai (Paid)
   * https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai-inference/20231130/EmbedTextResult/EmbedText (Sample codes) 
