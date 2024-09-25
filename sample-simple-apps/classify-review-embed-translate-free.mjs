@@ -159,10 +159,10 @@ class AIApp
 		    return embeddings;
 		}
 
-		async translateText(texts)
+		async translateText(texts, sourceLanguage, targetLanguage)
 		{
-				console.log("");
-		    console.log("-- Tranlating Text with Transformer.js --");
+		    console.log("");
+		    console.log("-- Translating Text with Transformer.js --");
 
 		    const tranlatorResult = []
 		    const textLen  = texts.length;
@@ -170,7 +170,7 @@ class AIApp
 		    const trpl = await pipeline('translation', translator);
 
 		    // translate English Language to Yoruba Language
-		    const languageOptions = { src_lang: "eng_Latn", tgt_lang: "yor_Latn" };
+		    const languageOptions = { src_lang: sourceLanguage, tgt_lang: targetLanguage };
 
 		    for(let index = 0; index < textLen; index++)
 		    {
@@ -201,13 +201,16 @@ class AIApp
 		    	"Feeling happy today.", 
 		    	"Last game was very difficult.", 
 		    	"The support provided is excellent."
-		    ]
+		    ];
 
 		    const textsToTranslate = [
 			"What is your name.",
 			"I like to walk my dog.",
 			"I want to visit my mum and dad."
 		    ];
+		    const sourceLanguage = "eng_Latn";
+		    const targetLanguage = "yor_Latn";
+		    
       
 		    const textsToEmbed = ["The project is going as planned."]
 
@@ -237,7 +240,7 @@ class AIApp
 		    await aiapp.prettyPrint( { "textEmbeddingTransformer" : textEmbeddingsTr } );
 
 		    // 6. text translation with transformer.js
-		    const textTranslatorTr = await translateText(textsToTranslate);
+		    const textTranslatorTr = await translateText(textsToTranslate, sourceLanguage, targetLanguage)
 		    await aiapp.prettyPrint( { "textTranslatorTransformer" : textTranslatorTr } );
 		    /*
 			// results - perfect translation - excellent model
