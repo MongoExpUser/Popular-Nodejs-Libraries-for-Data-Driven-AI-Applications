@@ -1,7 +1,7 @@
 /********************************************************************************************************************************
-* classify-review-embed-free.mjs                                                                       			        *                            
+* classify-review-embed-translatefree.mjs                                                                              	        *                            
 *                                                                                                                		*
-* Project:  Text and Image Classifications, Reviews and Embeddings with NodeJS GenAI Free Libraries.                            *
+* Project:  Classifications, Reviews, Embeddings and Translations  with NodeJS GenAI Free Libraries.                            *
 *                                                                             							*
 *  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                 					*
 *                                                                                     						*
@@ -9,7 +9,7 @@
 *                                                                                                            			*
 ********************************************************************************************************************************/
 
-//
+
 import { Image } from "image-js";
 import { inspect } from "node:util";
 import { readFileSync } from "node:fs";
@@ -18,7 +18,6 @@ import { pipeline } from '@xenova/transformers';
 import * as mobilenet from "@tensorflow-models/mobilenet";
 import * as encoder from "@tensorflow-models/universal-sentence-encoder";
 
-// classify-review-and-embed-free.js
 
 class AIApp
 {
@@ -160,6 +159,29 @@ class AIApp
 		    return embeddings;
 		}
 
+		async translateText(texts)
+		{
+				console.log("");
+		    console.log("-- Tranlating Text with Transformer.js --");
+
+		    const tranlatorResult = []
+		    const textLen  = texts.length;
+		    const translator = "Xenova/nllb-200-distilled-600M";
+		    const trpl = await pipeline('translation', translator);
+
+		    // translate English Language to Yoruba Language
+		    const languageOptions = { src_lang: "eng_Latn", tgt_lang: "yor_Latn" };
+
+		    for(let index = 0; index < textLen; index++)
+		    {
+		        const text = texts[index];
+		        const trplResult = await trpl(text, languageOptions);
+		        tranlatorResult.push(trplResult)
+		    }
+
+		    return tranlatorResult;
+		}
+
 		async testAIApp()
 		{
 		    const aiapp = new AIApp();
@@ -180,6 +202,12 @@ class AIApp
 		    	"Last game was very difficult.", 
 		    	"The support provided is excellent."
 		    ]
+
+		    const textsToTranslate = [
+			"What is your name.",
+			"I like to walk my dog.",
+			"I want to visit my mum and dad."
+		    ];
       
 		    const textsToEmbed = ["The project is going as planned."]
 
@@ -207,6 +235,19 @@ class AIApp
 		    // 5. text embedding with transformer.js
 		    const textEmbeddingsTr  = await aiapp.generateTextEmbeddingsWithTransformer(textsToEmbed);
 		    await aiapp.prettyPrint( { "textEmbeddingTransformer" : textEmbeddingsTr } );
+
+		    // 6. text translation with transformer.js
+		    const textTranslatorTr = await translateText(textsToTranslate);
+		    await aiapp.prettyPrint( { "textTranslatorTransformer" : textTranslatorTr } );
+		    /*
+			// results - perfect translation - excellent model
+			textTranslatorTransformer: [
+				[ { translation_text: 'Kí ni orúkọ rẹ?' } ],
+				[ { translation_text: 'Mo máa ń fẹ́ láti rìnrìn àjò fún ajá mi.' } ],
+				[ { translation_text: 'Mo fẹ́ lọ kí àwọn òbí mi.' } ]
+	  		]
+	  	   */
+			
 		}
 }
 
