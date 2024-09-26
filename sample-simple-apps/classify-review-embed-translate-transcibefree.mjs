@@ -184,14 +184,14 @@ class AIApp
 
 	    	async readLocalOrRemoteFile(file)
 	    	{
-	    		let buffer;
-	    		const aiapp = new AIApp();
+			let buffer;
+			const aiapp = new AIApp();
 	
-		        // read local or remote file
+			// read local or remote file
 			try
 			{
-		        	buffer = readFileSync(file);  // try a local file oath
-		        }
+				buffer = readFileSync(file);  // try a local file oath
+			}
 			catch(localFileError)
 			{	
 				if(localFileError)
@@ -211,7 +211,7 @@ class AIApp
 					}
 				}
 			}
-
+	
 			return buffer;
 		}
 
@@ -223,7 +223,7 @@ class AIApp
 		    const aiapp = new AIApp();
 		    let transcribeResults = [];
 		    const fileLen  = files.length;
-		    const transcriber = "Xenova/whisper-tiny.en"; // english transcriber
+		    const transcriber = "Xenova/whisper-tiny.en";
 		    const transpl = await pipeline("automatic-speech-recognition", transcriber);
 		    
 		    const start = new Date();
@@ -301,6 +301,14 @@ class AIApp
 		    const targetLanguage = "yor_Latn"; // Yoruba Language
 		    // link to supported languages: https://github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200
 
+		   const audioFilesToTranscibe = [
+			"oh-yeah-everything-is-fine.wav",
+			"https://www.pacdv.com/sounds/voices/oh-yeah-everything-is-fine.wav",
+			"jfk.wav",
+			"https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/main/jfk.wav"
+		   ];
+
+			
 		    // 1. text sa-review with transformer.js
 		    const textReviewTr  = await aiapp.reviewText(textsToReview);
 		    await aiapp.prettyPrint( { "textReviewTransformer" : textReviewTr } );
@@ -337,6 +345,10 @@ class AIApp
 				[ { translation_text: 'Mo fẹ́ lọ kí àwọn òbí mi.' } ]
 	  		]
 	  	   */
+
+		   // 7. transcribe with transformer.js
+		   const audioTranscibeTr = await aiapp.transcribeAudio(audioFilesToTranscibe);
+		   await aiapp.prettyPrint( { "audioTranscibeTr" : audioTranscibeTr } );
 			
 		}
 }
