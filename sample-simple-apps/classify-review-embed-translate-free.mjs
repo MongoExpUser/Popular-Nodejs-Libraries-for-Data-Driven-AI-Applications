@@ -41,7 +41,7 @@ class AIApp
 		    console.log("");
 		    console.log("-- Classify Text with Transformer.js --");
 
-		    const classifierResults = [];
+		    let classifierResults = [];
 		    const textLen  = texts.length;
 		    const classifier = "Xenova/distilbert-base-uncased-finetuned-sst-2-english";
 		    const cpl = await pipeline("sentiment-analysis", classifier);
@@ -61,7 +61,7 @@ class AIApp
 		    console.log("");
 		    console.log("-- Review Text with Transformer.js --");
 
-		    const reviewerResults = [];
+		    let reviewerResults = [];
 		    const textLen  = texts.length;
 		    const reviewer  = "Xenova/bert-base-multilingual-uncased-sentiment";
 		    const rpl = await pipeline("sentiment-analysis", reviewer);
@@ -81,7 +81,7 @@ class AIApp
 		    console.log("");
 		    console.log("-- Generate Image Embeddings with TensorFlow.js - Mobilenet Model --");
 
-		    const embeddings = []
+		    let embeddings = []
 		    const fileLen  = files.length;
 
 		    for(let index = 0; index < fileLen; index++)
@@ -123,7 +123,7 @@ class AIApp
 		    console.log("");
 		    console.log("-- Generating Image Embeddings with Transformer.js --");
 
-		    const embeddings = []
+		    let embeddings = []
 		    const fileLen  = files.length;
 		    const imageFeatureExtractorModel = "Xenova/vit-base-patch16-224-in21k";
 		    const ifepl = await pipeline("image-feature-extraction", imageFeatureExtractorModel);
@@ -164,7 +164,7 @@ class AIApp
 		    console.log("");
 		    console.log("-- Translating Text with Transformer.js --");
 
-		    const tranlatorResult = []
+		    let tranlatorResult = []
 		    const textLen  = texts.length;
 		    const translator = "Xenova/nllb-200-distilled-600M";
 		    const trpl = await pipeline('translation', translator);
@@ -202,7 +202,7 @@ class AIApp
 		    	"rust-logo.png"
 		    ];
 
-		   const textsToEmbed = ["The project is going as planned."];
+		    const textsToEmbed = ["The project is going as planned."];
 
 		    const textsToTranslate = [
 			"What is your name.",
