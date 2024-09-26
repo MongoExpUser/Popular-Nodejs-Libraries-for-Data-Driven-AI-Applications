@@ -301,6 +301,7 @@ class AIApp
 		    const targetLanguage = "yor_Latn"; // Yoruba Language
 		    // link to supported languages: https://github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200
 
+		   // local and remote (url) files can be transcribed
 		   const audioFilesToTranscibe = [
 			"oh-yeah-everything-is-fine.wav",
 			"https://www.pacdv.com/sounds/voices/oh-yeah-everything-is-fine.wav",
@@ -351,6 +352,22 @@ class AIApp
 		   // 7. transcribe with transformer.js
 		   const audioTranscibeTr = await aiapp.transcribeAudio(audioFilesToTranscibe);
 		   await aiapp.prettyPrint( { "audioTranscibeTr" : audioTranscibeTr } );
+		   /*
+     			// results of transcription - excellent model
+	     		===============================================================
+			Duration of Transcription : 16.436 seconds
+			===============================================================
+			{
+			  audioTranscibeTr: [
+			    { text: " Oh yeah, everything's fine." },
+			    { text: " Oh yeah, everything's fine." },
+			    { text: ' And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.' },
+			    { text: ' And so my fellow Americans ask not what your country can do for you, ask what you can do for your country.' },
+			    { text: " Good evening ladies and gentlemen. We'd like to welcome you to new Daniel Radios broadcast of the" },
+			    { text: " Good evening ladies and gentlemen. We'd like to welcome you to new Daniel Radios broadcast of the" }
+			  ]
+			}
+     		  */
 		}
 }
 
