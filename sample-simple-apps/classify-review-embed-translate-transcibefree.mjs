@@ -1,5 +1,5 @@
 /********************************************************************************************************************************
-* classify-review-embed-translate-free.mjs                                                                                      *                            
+* classify-review-embed-translate-transcribe-free.mjs                                                                           *                            
 *                                                                                                                		*
 * Project:  Classifications, Reviews, Embeddings and Translations  with NodeJS GenAI Free Libraries.                            *
 *                                                                             							*
@@ -180,6 +180,94 @@ class AIApp
 
 		    return tranlatorResult;
 		}
+
+
+	    	async readLocalOrRemoteFile(file)
+	    	{
+	    		let buffer;
+	    		const aiapp = new AIApp();
+	
+		        // read local or remote file
+			try
+			{
+		        	buffer = readFileSync(file);  // try a local file oath
+		        }
+			catch(localFileError)
+			{	
+				if(localFileError)
+				{
+					await aiapp.prettyPrint( { "Error": `Local file not found. Will try remote file.` } );
+	
+					try
+					{ 
+						  buffer = Buffer.from(await (await fetch(file)).arrayBuffer());  // try a url (remote) file path
+					}
+					catch(urlFileError)
+					{
+						if(urlFileError)
+						{
+							await aiapp.prettyPrint( { "Error": `Cannot read file.` } );
+						}
+					}
+				}
+			}
+
+			return buffer;
+		}
+
+		async transcribeAudio(files)
+		{
+		    console.log("");
+		    console.log("-- transcribe Audio with Transformer.js --");
+
+		    const aiapp = new AIApp();
+		    let transcribeResults = [];
+		    const fileLen  = files.length;
+		    const transcriber = "Xenova/whisper-tiny.en"; // english transcriber
+		    const transpl = await pipeline("automatic-speech-recognition", transcriber);
+		    
+		    const start = new Date();
+
+		    for(let index = 0; index < fileLen; index++)
+		    {
+		        let file = files[index];
+			const buffer = await aiapp.readLocalOrRemoteFile(file);
+			let wf = new wavefile.WaveFile(buffer);
+			wf.toBitDepth("32f");   // data type -  Float32Array
+			wf.toSampleRate(16000); // sampling rate of 16000
+			let data = wf.getSamples();
+
+			if(Array.isArray(data)) 
+			{
+			    if(data.length > 1) 
+			    {
+				const scaleFactor = Math.sqrt(2);
+
+				// merge channels to the first channel to save memory
+				const data0Len = data[0].length;
+				for (let i = 0; i < data0Len; ++i) 
+				{
+				    data[0][i] = scaleFactor * (data[0][i] + data[1][i]) / 2;
+				}
+			    }
+
+			    // select the first channel and transcribe
+			    let data0 = data[0];
+			    let transplResult = await transpl(data0);
+		            transcribeResults.push(transplResult);
+			}
+		    }
+
+		    const stop = new Date();
+
+		    const duration = (stop.getTime() - start.getTime()) / 1000;
+		    console.log("===============================================================");
+		    console.log("Duration of Transcription :" , duration, "seconds");
+		    console.log("===============================================================");
+				
+		    return transcribeResults;
+		}
+	
 
 		async testAIApp()
 		{
