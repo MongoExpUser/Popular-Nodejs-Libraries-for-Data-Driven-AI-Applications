@@ -305,7 +305,9 @@ class AIApp
 			"oh-yeah-everything-is-fine.wav",
 			"https://www.pacdv.com/sounds/voices/oh-yeah-everything-is-fine.wav",
 			"jfk.wav",
-			"https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/main/jfk.wav"
+			"https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/main/jfk.wav",
+			"Sports.wav",
+			"https://voiceage.com/wbsamples/in_stereo/Sports.wav"
 		   ];
 
 			
