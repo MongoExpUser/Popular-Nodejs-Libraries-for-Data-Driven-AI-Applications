@@ -190,7 +190,7 @@ class AIApp
 			// read local or remote file
 			try
 			{
-				buffer = readFileSync(file);  // try a local file oath
+				buffer = readFileSync(file);  // try a local file path
 			}
 			catch(localFileError)
 			{	
@@ -200,7 +200,7 @@ class AIApp
 	
 					try
 					{ 
-						  buffer = Buffer.from(await (await fetch(file)).arrayBuffer());  // try a url (remote) file path
+						buffer = Buffer.from(await (await fetch(file)).arrayBuffer());  // try a url (remote) file path
 					}
 					catch(urlFileError)
 					{
@@ -349,7 +349,6 @@ class AIApp
 		   // 7. transcribe with transformer.js
 		   const audioTranscibeTr = await aiapp.transcribeAudio(audioFilesToTranscibe);
 		   await aiapp.prettyPrint( { "audioTranscibeTr" : audioTranscibeTr } );
-			
 		}
 }
 
