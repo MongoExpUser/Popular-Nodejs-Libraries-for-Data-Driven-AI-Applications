@@ -272,26 +272,33 @@ class AIApp
 		async testAIApp()
 		{
 		    const aiapp = new AIApp();
-      
+
+		    // A. define inputs
+                   
+		   // 1. review text
 		    const textsToReview = [
 		    	"The location is very far.", 
 		    	"The hotel is okay."
 		    ];
-      
+
+		    // 2. classiy text
 		    const textsToClassify = [
 		    	"Feeling happy today.", 
 		    	"Last game was very difficult.", 
 		    	"The support provided is excellent."
 		    ];
 
+		    // 3. & 4. embed image
 		    const imageFilesToEmbed = [
 		    	"nodejs-logo.png",
 		    	"python-logo.png",
 		    	"rust-logo.png"
 		    ];
 
+		    // 5. embed text
 		    const textsToEmbed = ["The project is going as planned."];
 
+		    // 6. translate text
 		    const textsToTranslate = [
 			"What is your name.",
 			"I like to walk my dog.",
@@ -301,6 +308,7 @@ class AIApp
 		    const targetLanguage = "yor_Latn"; // Yoruba Language
 		    // link to supported languages: https://github.com/facebookresearch/flores/blob/main/flores200/README.md#languages-in-flores-200
 
+		    // 7. transcribe audio
 		   // local and remote (url) files can be transcribed
 		   const audioFilesToTranscibe = [
 			"oh-yeah-everything-is-fine.wav",
@@ -311,7 +319,9 @@ class AIApp
 			"https://voiceage.com/wbsamples/in_stereo/Sports.wav"
 		   ];
 
-			
+
+		    // B. test
+		   
 		    // 1. text sa-review with transformer.js
 		    const textReviewTr  = await aiapp.reviewText(textsToReview);
 		    await aiapp.prettyPrint( { "textReviewTransformer" : textReviewTr } );
