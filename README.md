@@ -167,10 +167,10 @@
 ## REST API Integration: Design and Documentation
 - JSDoc
   * https://github.com/jsdoc/jsdoc/blob/main/README.md
-  * https://jsdoc.app/
+  * https://jsdoc.app/ (JSDoc Documentation - Main reference)
 - OpenAPI (Formerly Swagger)
   * https://github.com/Surnet/swagger-jsdoc/blob/master/README.md
-  * https://swagger.io/specification/
+  * https://swagger.io/specification/ (OpenAPI Specification - Main reference)
 
     
 
