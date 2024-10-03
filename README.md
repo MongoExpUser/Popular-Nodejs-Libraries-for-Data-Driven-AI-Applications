@@ -45,7 +45,7 @@
   * https://github.com/Level/level/blob/master/README.md
 - Level-party
   * https://github.com/Level/party/blob/master/README.md
-    * For multiple processess access of database.
+    * Level improvement, for multiple processess access of database, to avoid locking error.
     * Handles Nodejs Cluster API effectively.
       * See: https://nodejs.org/docs/latest/api/cluster.html#cluster
 
