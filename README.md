@@ -43,6 +43,7 @@
   * https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
 - Level
   * https://github.com/Level/level/blob/master/README.md
+  * https://github.com/Level/party/blob/master/README.md  (For multiple processess access of database)
 
 
 ## Traditional Machine Learning (ML) - Train, Validate and Test
