@@ -29,7 +29,7 @@
 
 ## Embedded (In-Process) Database
 - Nodejs Inbuilt SQLite Module
-  * https://nodejs.org/docs/latest/api/sqlite.html  ( <strong> --experimental-sqlite </strong> )
+  * https://nodejs.org/docs/latest/api/sqlite.html#sqlite ( <strong> --experimental-sqlite </strong> )
 - Node-sqlite
   * https://github.com/kriasoft/node-sqlite/blob/master/README.md
   * https://sqlite.org/about.html  (SQLite Org - Main reference)
@@ -43,7 +43,10 @@
   * https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
 - Level
   * https://github.com/Level/level/blob/master/README.md
-  * https://github.com/Level/party/blob/master/README.md  (For multiple processess access of database - handles Nodejs cluster API effectively)
+  * https://github.com/Level/party/blob/master/README.md
+    * For multiple processess access of database.
+    * Handles Nodejs Cluster API effectively.
+      * See: https://nodejs.org/docs/latest/api/cluster.html#cluster
 
 
 ## Traditional Machine Learning (ML) - Train, Validate and Test
@@ -142,12 +145,12 @@
   * https://github.com/axios/axios/blob/v1.x/README.md
 
 
-## REST API Integration
+## REST API Integration: Implementation
 - Nodejs Inbuilt Http
-  * https://nodejs.org/docs/latest/api/http.html
+  * https://nodejs.org/docs/latest/api/http.html#http
   * https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction
 - Nodejs Inbuilt Https
-  * https://nodejs.org/docs/latest/api/https.html
+  * https://nodejs.org/docs/latest/api/https.html#https
 - Expressjs
   * https://github.com/expressjs/express/blob/master/Readme.md
 - Tinyhttp
@@ -158,7 +161,17 @@
   * https://github.com/hapijs/hapi/blob/master/README.md
 - Koa
   * https://github.com/koajs/koa#readme
+ 
 
+## REST API Integration: Design and Documentation
+- JSDoc
+  * https://github.com/jsdoc/jsdoc/blob/main/README.md
+  * https://jsdoc.app/
+- OpenAPI (Formerly Swagger)
+  * https://github.com/Surnet/swagger-jsdoc/blob/master/README.md
+  * https://swagger.io/specification/
+
+    
 
 
 
