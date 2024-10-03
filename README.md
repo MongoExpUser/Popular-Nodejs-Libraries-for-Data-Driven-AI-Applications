@@ -43,6 +43,7 @@
   * https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
 - Level
   * https://github.com/Level/level/blob/master/README.md
+- Level-party
   * https://github.com/Level/party/blob/master/README.md
     * For multiple processess access of database.
     * Handles Nodejs Cluster API effectively.
