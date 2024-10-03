@@ -42,7 +42,7 @@
 - Simple-json-db
   * https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
 - LevelDB
-  * https://github.com/my8bird/node-leveldb/blob/master/README.md
+  * https://github.com/Level/level/blob/master/README.md
 
 
 ## Traditional Machine Learning (ML) - Train, Validate and Test
