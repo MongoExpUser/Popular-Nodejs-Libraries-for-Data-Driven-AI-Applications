@@ -41,7 +41,7 @@
   * https://github.com/Belphemur/node-json-db/blob/master/README.md
 - Simple-json-db
   * https://github.com/nmaggioni/Simple-JSONdb/blob/master/README.md
-- LevelDB
+- Level
   * https://github.com/Level/level/blob/master/README.md
 
 
