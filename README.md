@@ -7,10 +7,11 @@
 ## Data Analytics 
 - Apache-arrow 
   * https://github.com/apache/arrow/blob/main/js/README.md
-  * https://arrow.apache.org/docs/js/<br>
+  * https://arrow.apache.org/docs/js/
 - Nodejs-polars
   * https://github.com/pola-rs/nodejs-polars/blob/main/README.md
   * https://pola-rs.github.io/nodejs-polars/index.html
+  * https://docs.pola.rs/ (Docs.Pola.Rs - Main Reference)
 - Data-forge
   * https://github.com/data-forge/data-forge-ts/blob/master/README.md
   * https://data-forge.github.io/data-forge-ts/
