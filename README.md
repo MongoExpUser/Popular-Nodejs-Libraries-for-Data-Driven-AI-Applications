@@ -24,7 +24,7 @@
 - Numjs
   * https://github.com/nicolaspanel/numjs/blob/master/README.md
   * https://nicolaspanel.github.io/numjs/NdArray.html
-
+##
   
 
 ## Embedded (In-Process) Database
@@ -48,6 +48,8 @@
     * Level's improvement, for multiple processess access of database, to avoid locking error.
     * Handles Nodejs Cluster API effectively.
       * See: https://nodejs.org/docs/latest/api/cluster.html#cluster
+##
+
      
 - ## Client-Server Database Driver
 - Mysql
@@ -70,7 +72,7 @@
   * https://github.com/aws/aws-sdk-js-v3/blob/main/clients/client-dynamodb/README.md
 - Oracle NoSQL Client
   * https://oracle.github.io/nosql-node-sdk/classes/NoSQLClient.html
-  
+##  
 
 
 ## Traditional Machine Learning (ML) - Train, Validate and Test
@@ -90,6 +92,7 @@
   * https://github.com/stdlib-js/ml/blob/main/README.md
 - Stdlib-js/npl
   * https://github.com/stdlib-js/nlp/blob/main/README.md
+##
 
 
 ## Generative AI (GenAI) Service - Paid and Free
@@ -113,7 +116,7 @@
   * https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md (Free)
 - TensorFlow.js Mobilenet
   * https://github.com/tensorflow/tfjs-models/blob/master/mobilenet/README.md (Free)
-
+##
 
 
 ## Visualization (Web-Based Visualization)
@@ -136,9 +139,7 @@
 - Chart.js
   * https://github.com/chartjs/Chart.js/blob/master/README.md
   * https://www.chartjs.org/docs/latest/
- 
-    
-
+##
 
 ## Messaging, Queue and Task Scheduler
 - Zeromq.js
@@ -152,6 +153,7 @@
   * https://github.com/node-cron/node-cron/blob/master/README.md
 - Cron
   * https://github.com/kelektiv/node-cron/blob/main/README.md
+##
 
 
 ## Web Scrapping
@@ -167,6 +169,7 @@
   * https://nodejs.org/docs/latest/api/globals.html#fetch
 - Axios
   * https://github.com/axios/axios/blob/v1.x/README.md
+##
 
 
 ## REST API Integration: Implementation
@@ -185,7 +188,8 @@
   * https://github.com/hapijs/hapi/blob/master/README.md
 - Koa
   * https://github.com/koajs/koa#readme
- 
+##
+
 
 ## REST API Integration: Design and Documentation
 - JSDoc
@@ -194,10 +198,8 @@
 - OpenAPI (Formerly Swagger)
   * https://github.com/Surnet/swagger-jsdoc/blob/master/README.md
   * https://swagger.io/specification/ (OpenAPI Specification - Main reference)
-
+##
     
-
-
 
 # License
 
