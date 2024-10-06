@@ -72,6 +72,8 @@
   * https://github.com/aws/aws-sdk-js-v3/blob/main/clients/client-dynamodb/README.md
 - Oracle NoSQL Client
   * https://oracle.github.io/nosql-node-sdk/classes/NoSQLClient.html
+- Elasticsearch Node.js Client
+  * https://github.com/elastic/elasticsearch-js/blob/main/README.md
 ##  
 
 
@@ -141,7 +143,7 @@
   * https://www.chartjs.org/docs/latest/
 ##
 
-## Messaging, Queue and Task Scheduler
+## Messaging, Queue, Notification and Task Scheduler
 - Zeromq.js
   * https://github.com/zeromq/zeromq.js/blob/master/README.md
   * https://zeromq.github.io/zeromq.js/index.html
@@ -153,6 +155,26 @@
   * https://github.com/node-cron/node-cron/blob/master/README.md
 - Cron
   * https://github.com/kelektiv/node-cron/blob/main/README.md
+- AWS SQS
+  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/sqs/ (Free Tier and Paid)
+- AWS SNS
+  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/sns/ (Free Tier Paid)
+- AWS EvenBridge
+  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/eventbridge/ (Free Tier and Paid)
+- AWS CloudWatch Alarm
+  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/cloudwatch/command/PutMetricAlarmCommand/ (Free Tier and Paid)
+- OCI Queue
+  * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/queue/README.md (Free Tier and Paid)
+  * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/queue/20210201/Queue/CreateQueue
+- OCI Notification (ONS)
+  * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/ons/README.md (Free Tier and Paid)
+  * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/notification/20181201/NotificationTopic/CreateTopic
+- OCI Events
+  * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/events/README.md (Free Tier and Paid)
+  * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/events/20181201/Rule/CreateRule
+- OCI Alarm
+  * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/monitoring/README.md (Free Tier and Paid)
+  * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/monitoring/20180401/Alarm/CreateAlarm
 ##
 
 
