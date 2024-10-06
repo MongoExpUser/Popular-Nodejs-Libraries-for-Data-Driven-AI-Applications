@@ -48,6 +48,29 @@
     * Level's improvement, for multiple processess access of database, to avoid locking error.
     * Handles Nodejs Cluster API effectively.
       * See: https://nodejs.org/docs/latest/api/cluster.html#cluster
+     
+- ## Client-Server Database Driver
+- Mysql
+  * https://github.com/mysqljs/mysql/blob/master/Readme.md
+- Node-redis
+  * https://github.com/redis/node-redis/blob/master/README.md
+- MariaDB Node.js connector
+  * https://github.com/mariadb-corporation/mariadb-connector-nodejs/blob/master/README.md
+- MongoDB Node.js Driver
+  * https://github.com/mongodb/node-mongodb-native/blob/main/README.md
+- Node-postgres
+  * https://github.com/brianc/node-postgres/blob/master/README.md
+- Node-oracledb
+  * https://github.com/oracle/node-oracledb/blob/main/README.md
+- Node-mssql
+  * https://github.com/tediousjs/node-mssql/blob/master/README.md
+- Neo4j Driver for JavaScript
+  * https://github.com/neo4j/neo4j-javascript-driver/blob/5.0/README.md
+- AWS SDK for JavaScript DynamoDB Client for Node.js, Browser and React Native
+  * https://github.com/aws/aws-sdk-js-v3/blob/main/clients/client-dynamodb/README.md
+- Oracle NoSQL Client
+  * https://oracle.github.io/nosql-node-sdk/classes/NoSQLClient.html
+  
 
 
 ## Traditional Machine Learning (ML) - Train, Validate and Test
