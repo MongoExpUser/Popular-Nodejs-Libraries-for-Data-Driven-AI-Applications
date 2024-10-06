@@ -173,7 +173,7 @@
 - OCI Events
   * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/events/README.md (Free Tier and Paid)
   * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/events/20181201/Rule/CreateRule
-- OCI Alarm
+- OCI Monitoring Alarm
   * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/monitoring/README.md (Free Tier and Paid)
   * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/monitoring/20180401/Alarm/CreateAlarm
 ##
