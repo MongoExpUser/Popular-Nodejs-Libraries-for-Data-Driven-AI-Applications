@@ -155,11 +155,11 @@
   * https://github.com/node-cron/node-cron/blob/master/README.md
 - Cron
   * https://github.com/kelektiv/node-cron/blob/main/README.md
-- AWS SQS
+- AWS SQS (Simple Queue Service)
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/sqs/ (Free Tier and Paid)
-- AWS SNS
-  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/sns/ (Free Tier Paid)
-- AWS EvenBridge
+- AWS SNS (Simple Notification Service)
+  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/sns/ (Free Tier and Paid)
+- AWS EventBridge
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/eventbridge/ (Free Tier and Paid)
 - AWS CloudWatch Alarm
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/cloudwatch/command/PutMetricAlarmCommand/ (Free Tier and Paid)
