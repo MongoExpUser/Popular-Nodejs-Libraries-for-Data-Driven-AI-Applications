@@ -2,7 +2,7 @@
 
 ### Purpose: Data-Driven AI Applications Development                                                                                          
 - The links below are provided as <strong>references</strong> and <strong>guides</strong> for designing, implementing and documenting Data-Driven AI Applications with NodeJS.
-    
+##
  
 ## Data Analytics 
 - Apache-arrow 
@@ -51,7 +51,7 @@
 ##
 
      
-- ## Client-Server Database Driver
+## Client-Server Database Driver
 - Mysql
   * https://github.com/mysqljs/mysql/blob/master/Readme.md
 - Node-redis
