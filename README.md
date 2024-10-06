@@ -69,9 +69,11 @@
   * https://github.com/tediousjs/node-mssql/blob/master/README.md
 - Neo4j Driver for JavaScript
   * https://github.com/neo4j/neo4j-javascript-driver/blob/5.0/README.md
+- AWS SDK for JavaScript Neptune Client for Node.js, Browser and React Native.
+  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/neptune/
 - AWS SDK for JavaScript DynamoDB Client for Node.js, Browser and React Native
   * https://github.com/aws/aws-sdk-js-v3/blob/main/clients/client-dynamodb/README.md
-- Oracle NoSQL Client
+- Oracle NoSQL Database Node.js SDK NoSQLClient
   * https://oracle.github.io/nosql-node-sdk/classes/NoSQLClient.html
 - Elasticsearch Node.js Client
   * https://github.com/elastic/elasticsearch-js/blob/main/README.md
