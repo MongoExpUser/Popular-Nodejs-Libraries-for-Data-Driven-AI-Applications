@@ -148,7 +148,7 @@
   * https://www.chartjs.org/docs/latest/
 ##
 
-## Messaging: Stream, Queue, Notification and Task Scheduler
+## Messaging: Stream, Queue, Notification, Event and Task Scheduler
 - Zeromq.js
   * https://github.com/zeromq/zeromq.js/blob/master/README.md
   * https://zeromq.github.io/zeromq.js/index.html
