@@ -146,7 +146,7 @@
   * https://www.chartjs.org/docs/latest/
 ##
 
-## Messaging, Queue, Notification and Task Scheduler
+## Messaging, Streams, Queue, Notification and Task Scheduler
 - Zeromq.js
   * https://github.com/zeromq/zeromq.js/blob/master/README.md
   * https://zeromq.github.io/zeromq.js/index.html
@@ -158,6 +158,8 @@
   * https://github.com/node-cron/node-cron/blob/master/README.md
 - Cron
   * https://github.com/kelektiv/node-cron/blob/main/README.md
+- Amazon Kinesis Data Streams
+  * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-kinesis/ (Paid)
 - AWS SQS (Simple Queue Service)
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/sqs/ (Free Tier and Paid)
 - AWS SNS (Simple Notification Service)
@@ -166,6 +168,8 @@
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/eventbridge/ (Free Tier and Paid)
 - AWS CloudWatch Alarm
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/cloudwatch/command/PutMetricAlarmCommand/ (Free Tier and Paid)
+- OCI Streaming
+  * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/streaming/README.md (Paid)
 - OCI Queue
   * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/queue/README.md (Free Tier and Paid)
   * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/queue/20210201/Queue/CreateQueue (Sample codes)
