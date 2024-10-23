@@ -187,7 +187,7 @@
 - NodeJS Client for Streaming Services (Kafka and Kafta APIs-Compatible Streaming Services):
   * https://github.com/tulios/kafkajs/blob/master/README.md
   * https://kafka.js.org/docs/getting-started (KafjaJS Org)
-  * Examples of Kafta APIs-Compatible Streaming Services: OCI Streaming, AWS Kinetics Data Stream, Apache Pulsar, Redpanda, StreamNative, Azure EventHubs, Upstash Kafka, etc.
+  * Examples of Kafta APIs-Compatible Streaming Services: OCI Streaming, AWS Kinesis Data Stream, Apache Pulsar, Redpanda, StreamNative, Azure EventHubs, Upstash Kafka, etc.
 ##
 
 
