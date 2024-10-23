@@ -172,6 +172,7 @@
   * https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/cloudwatch/command/PutMetricAlarmCommand/ (Free Tier and Paid)
 - OCI Streaming
   * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/streaming/README.md (Paid)
+  * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/streaming/20180418/Stream/CreateStream (Sample codes)
 - OCI Queue
   * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/queue/README.md (Free Tier and Paid)
   * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/queue/20210201/Queue/CreateQueue (Sample codes)
