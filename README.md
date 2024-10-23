@@ -233,7 +233,7 @@
 - OpenAPI (Formerly Swagger)
   * https://github.com/Surnet/swagger-jsdoc/blob/master/README.md
   * https://swagger.io/specification/ (OpenAPI Specification - Main reference)
-  * https://editor.swagger.io/ (Swagger Editor - Quick Start for API design and documentation)
+  * https://editor.swagger.io/ (OpenAPI/Swagger Editor - Quick Start for API design and documentation)
 ##
     
 
