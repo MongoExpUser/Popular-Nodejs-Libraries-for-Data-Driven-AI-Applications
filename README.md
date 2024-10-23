@@ -55,6 +55,8 @@
 ## Client-Server Database Driver
 - Mysql
   * https://github.com/mysqljs/mysql/blob/master/Readme.md
+- MySQL Connector/Node.js (Supported and maintained by Oracle)
+  * https://github.com/mysql/mysql-connector-nodejs/blob/trunk/README.md
 - Node-redis
   * https://github.com/redis/node-redis/blob/master/README.md
 - MariaDB Node.js connector
