@@ -182,6 +182,17 @@
 - OCI Monitoring Alarm
   * https://github.com/oracle/oci-typescript-sdk/blob/master/lib/monitoring/README.md (Free Tier and Paid)
   * https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/api/#/en/monitoring/20180401/Alarm/CreateAlarm (Sample codes)
+- NodeJS Client for Streaming Services (Kafka and Kafta APIs-Compatible Streaming Services
+  * https://github.com/tulios/kafkajs/blob/master/README.md
+  * https://kafka.js.org/docs/getting-started (KafjaJS Org)
+  * Examples of Kafta APIs-Compatible Streaming Services:
+    * OCI Streaming
+    * AWS Kinetics Data Stream
+    * Apache Pulsar
+    * Redpanda
+    * StreamNative
+    * Azure EventHubs
+    * etc.
 ##
 
 
